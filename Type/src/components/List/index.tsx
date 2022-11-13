@@ -1,3 +1,7 @@
+
+import style from "./List.module.scss"
+
+
 export function List(){
     const tarefas = [{
         id: 1,
@@ -14,12 +18,12 @@ export function List(){
 
 
     return(
-        <aside>
+        <aside className={style.listaTarefas}>
             <h2>Lista de Estudos</h2>
             <ul>
                 {
                     tarefas.map((tarefa,index)=>(
-                        <li key={index}>
+                        <li key={index} className={style.item}>
                             <h3>{tarefa.tarefas}</h3>
                             <span>{tarefa.tempo}</span>
                         </li>
