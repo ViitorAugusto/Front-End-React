@@ -1,4 +1,4 @@
-import { Button } from "../Button/Button";
+import { Button } from "../Button";
 import style from "./Form.module.scss"
 
 export function Form(){
@@ -29,7 +29,9 @@ export function Form(){
                 required
                 />
             </div>
-            <Button />
+            <Button 
+                texto="Adicionar"
+            />
         </form>
     )
 }

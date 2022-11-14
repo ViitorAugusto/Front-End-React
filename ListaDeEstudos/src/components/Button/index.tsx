@@ -1,11 +1,15 @@
 
 import style from "./Button.module.scss";
 
-export function Button() {
+interface ButtonProps {
+  texto: string;
+}
+
+export function Button(props: ButtonProps) {
   return (
     
     <button className={style.botao} >
-      <span>Button</span>
+      {props.texto}
     </button>
   );
 }
