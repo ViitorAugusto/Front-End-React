@@ -1,9 +1,23 @@
 import { Button } from "../Button";
 import style from "./Form.module.scss"
+import { useState } from "react";
+import { ITarefas } from "../../types/Tarefa";
 
 export function Form(){
+    
+    
+
+    const [tarefa, setTarefa] = useState("");
+    const [time, setTime] = useState("00:00:00")
+
+    function handleTarefa(event: any){
+        event.preventDefault();
+        
+        console.log(tarefa, time);
+    }
+    
     return(
-        <form className={style.novaTarefa}>
+        <form className={style.novaTarefa} onSubmit={handleTarefa}>
             <div className={style.inputContainer}>
                 <label htmlFor="tarefa">
                     Add um novo Estudo 
@@ -12,6 +26,8 @@ export function Form(){
                 type="text" 
                 id="name" 
                 name="tarefa"
+                value={tarefa}
+                onChange={(e) => setTarefa(e.target.value)}
                 placeholder="O que voce quer estudar?"
                 required
                 />
@@ -23,6 +39,8 @@ export function Form(){
                 type="time" 
                 id="tempo" 
                 step="1"
+                value={time}
+                onChange={(event) => setTime(event.target.value)}
                 name="tempo"
                 min="00:00:00"
                 max="01:30:00"
@@ -30,7 +48,8 @@ export function Form(){
                 />
             </div>
             <Button 
-                texto="Adicionar"
+            type="submit"
+            texto="Adicionar"
             />
         </form>
     )
