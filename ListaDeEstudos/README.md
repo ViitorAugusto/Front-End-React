@@ -1,4 +1,4 @@
-<h1 align="center"><a href="https://rocket-pay-jade.vercel.app/"> 💻 Projeto</a></h1>
+<h1 align="center"><a href="https://listadeestudos.vercel.app/"> 💻 Projeto</a></h1>
 
 <p align="center">
 Projeto desenvolvido com intuito de ter controle dos meus Estudos.
