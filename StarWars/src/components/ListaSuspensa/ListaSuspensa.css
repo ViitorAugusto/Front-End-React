@@ -1,0 +1,23 @@
+.listaSuspensa  select{
+    background-color: rgba(128, 128, 128, 0.229);
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    color: gray;
+    border: none;
+    padding: 20px;
+    font-size: 18px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+.listaSuspensa  select:focus{
+    outline: none;
+    border: 1px solid rgba(128, 128, 128, 0.529);
+    opacity: 1;
+}
+label{
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 10px;
+}
