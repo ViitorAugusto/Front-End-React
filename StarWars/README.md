@@ -1,7 +1,7 @@
-<h1 align="center"><a href="https://starwars-red.vercel.app/"> Link do Projeto 💻 </a></h1>
+<h1 align="center"><a href="https://starwarscards.vercel.app/"> 💻 Projeto Star Wars</a></h1>
 
 <p align="center">
-Projeto Star Wars Card, “Que a Força esteja com você”  para ensino de tecnologias WEB.
+Projeto Star Wars Card. “Que a Força esteja com você”  para ensino de tecnologias WEB.
 </p>
 
 <p align="center">
