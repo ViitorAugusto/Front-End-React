@@ -1,4 +1,4 @@
-<h1 align="center"><a href="https://listadeestudos.vercel.app/"> 💻 Projeto Ignite Feed.</a></h1>
+<h1 align="center"><a href="https://listadeestudos.vercel.app/"> 💻 Projeto Ignite Feed</a></h1>
 
 <p align="center">
 Projeto desenvolvido com propósito de um rede sociais.
