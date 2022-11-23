@@ -1,4 +1,5 @@
 import { Banner } from "../../components/Banner";
+import { Footer } from "../../components/Footer";
 import { Header } from "../../components/Header";
 import { Menu } from "../../components/Menu";
 
@@ -12,9 +13,10 @@ export function Home() {
           <section className={styles.principal}>
             <Menu />
             <Banner />
-          
+         
           </section>
         </main>
+        <Footer />
       </>
     </div>
   );
