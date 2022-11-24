@@ -1,39 +1,50 @@
-#  Teste técnico Pessoa Desenvolvedora Front-end Júnior
+#  <h1 align="center"><a href="#"> 💻 Projeto AllSpace</a></h1>
 
-Seja bem-vindo! Este desafio foi projetado para avaliar a capacidade técnica de candidatos às nossas vagas.  Neste repositório você encontra o enunciado do desafio para a vaga de Pessoa Desenvolvedora Front-end Júnior da [Alura Space](https://www.alura.com.br/)!
+<p align="center">
+Projeto AllSpace é uma galeria de fotos, com um objetivo de filtrar elas por tags. 🚀
+</p>
 
-##  Desafio
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">Licença</a>
+  
+</p>
 
-A **Alura Space** é uma empresa de pesquisa espacial que faz imagens incríveis do universo observável, e vem buscando novas oportunidades de negócio. Porém, o time comercial não possui nenhuma ferramenta que facilite a visualização de suas fotos por clientes em potencial.
+<p align="center">
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
+</p>
 
-Para ajudar o time comercial, você deve **desenvolver uma interface que exiba as fotos coletadas pelos pesquisadores**. A interface já foi criada pelo time de design da empresa e [você pode acessá-la neste link](https://www.figma.com/file/Y1W8HJHKqlUdDFeWi8e4cz/Alura-Space-%7C-React%3A-arquivos-est%C3%A1ticos). Ela deve seguir a referência visual disponibilizada como logo, fontes e cores da marca registrada da empresa. 
-
-[Os arquivos de imagens estão disponíveis neste link](https://github.com/NeiltonSeguins/teste-tecnico-alura-space/archive/refs/heads/main.zip), e para facilitar a usabilidade, crie pelo menos um filtro de imagens para a aplicação. Contudo, funcionalidades extras serão consideradas um diferencial.
-
-**Exemplo:** Filtrar imagens de planetas, estrelas ou galáxias quando for digitado esses termos na barra de pesquisa.
-
-Para se sair bem neste desafio, elaboramos um conjunto de instruções que deve ser seguidas, pois influenciarão nos critérios de avaliação dos projetos enviados. 
-
-##  Instruções
-
-- Utilize apenas [CSS/SCSS](https://sass-guidelin.es/) desenvolvido por você.
-
-- Utilize HTML semântico.
-
-- Se preocupe com a UX e UI do projeto elas serão levadas em consideração na avaliação.
-
-- Se atente nas [boas práticas do React.js](https://dev.to/abrahamlawson/react-style-guide-24pp).
-
-- Faça o Deploy do projeto em algum serviço de hospedagem de sua preferência ([Vercel](https://vercel.com/), [Heroku](https://www.heroku.com/), [Netlify](https://www.netlify.com/), etc).
-
-- Crie um Readme do seu projeto que contenha no mínimo um passo a passo de como rodar a aplicação.
-
-## Avaliação
-
-* Instruções de como rodar o projeto
-* Componentização e extensibilidade dos componentes Javascript
-* Organização, semântica, estrutura, legibilidade, manutenibilidade do seu código
-* Alcance dos objetivos propostos
+<br>
 
 
-Desejamos uma boa sorte à todos!
+## 🛠️ Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- [React.JS](https://pt-br.reactjs.org/) 
+- [Create-react-app](https://create-react-app.dev/)
+- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- [Node e NPM](https://nodejs.org/)
+- [SASS](https://sass-lang.com/)
+
+
+
+## 💻 Projeto
+
+Aprenderemos a componentizar a aplicação e separar cada parte da interface de usuário em um componente, traduzindo isso para o código.
+
+Também adicionaremos funcionalidades à nossa aplicação e, ao final, o resultado será um site bem bonito que filtra por tags.
+
+## 
+<p align="center">
+  <img alt="Star Wars" src=".github/forcaestejacomvocee.jpg" width="100%">
+</p>
+
+## :memo: Licença
+
+Esse projeto está sob a licença MIT.
+
+---
+
+Feito por Vitor Augusto [Linkedlin](https://www.linkedin.com/in/viitoraugusto/)
