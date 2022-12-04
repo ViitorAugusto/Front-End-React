@@ -1,4 +1,4 @@
-import { Link, useLocation} from "react-router-dom";
+import { useLocation} from "react-router-dom";
 import styles from "./Menu.module.css";
 import { MenuLinks } from "./MenuLinks";
 export function Menu() {
