@@ -1,0 +1,22 @@
+.botaoLer {
+    display: inline-block;
+    border-radius: 24px;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.125rem;
+    line-height: 1.125rem;
+    background-color: var(--azul-medio);
+    color: var(--branco);
+    border: 3px solid var(--azul-medio);
+    cursor: pointer;
+    transition: 0.2s;
+}
+ 
+.botaoLer:hover {
+    border: 3px solid var(--azul-escuro);
+}
+.botaoLer.lg {
+    font-size: 2rem;
+    line-height: 1.5rem;
+    padding: 1rem 2rem;
+   
+}
