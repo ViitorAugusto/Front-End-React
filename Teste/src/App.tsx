@@ -13,7 +13,6 @@ export function App() {
       <input type="text" name="" id=" " onChange={handleInputChange}/>
       <hr />
       Seu nome é:{name}
-
     </section>
   )
 }
