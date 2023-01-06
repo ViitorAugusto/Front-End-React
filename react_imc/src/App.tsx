@@ -2,7 +2,7 @@ import { useState } from "react";
 import styles from "./App.module.css";
 import logo from "./assets/powered.png";
 import { levels, calculateImc, Level } from "./helpers/imc";
-import GridItem from "./components/cards/GridItem";
+import GridItem from "./components/GridItem/GridItem";
 import leftArrow from "./assets/leftarrow.png";
 
 const App = () => {

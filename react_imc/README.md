@@ -1,46 +1,87 @@
-# Getting Started with Create React App
+<h1 align="center"><a href="#"> 💻 Calculadora de IMC</a></h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+Projeto em React + Typescript fazendo uma calculadora IMC. <br>
+Projeto desenolvido duranto o curso B7web
+</p>
 
-## Available Scripts
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">Licença</a>
+  
+</p>
 
-In the project directory, you can run:
+<p align="center">
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
+</p>
 
-### `npm start`
+<br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<p align="center">
+  <img alt="img" src=".github/page1.png" width="100%">
+</p>
+<br>
+<p align="center">
+  <img alt="tabelas imc" src=".github/page2.png" width="100%">
+</p>
+<br>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 🛠️ Tecnologias/ Ferramentas
 
-### `npm test`
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [TypeScript](https://www.typescriptlang.org/)
+- [Node.Js e NPM](https://nodejs.org/)
+- [Create React App](https://create-react-app.dev/)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📃 Projeto
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Calcule seu IMC.
+IMC é a sigla para Índice de Massa Corpória, paramentro adotado pela Organizacao Mundial de Saúde para calcular o peso ideal de cada pessoa.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## ⚙️ Como executar 
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Para rodar o projeto
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Será necessário que a porta 3000  estejam disponíveis para a aplicação.
+
+1 - Clone o repositório em uma pasta de sua preferencia 
+```
+https://github.com/ViitorAugusto/Front-End-React
+```
+2 - Entre na pasta `react_imc`
+```
+npm install  // todas as depêndencias serão automaticamente instaladas.
+```
+3 - Use o comando
+```
+npm start // para inicar a aplicação
+```
+
+
+3 - Após rodar o comando, aguarde um pouco que a aplicação irá ficar disponivel nas seguintes rotas:
+
+
+  `- http://localhost:3000`
+
+<br>
+<br>
+<hr>
+
+### 🚀 memo: Licença
+
+Esse projeto está sob a licença MIT.
+
+---
+
+Feito por Vitor Augusto  [ 🌐 Linkedlin.](https://www.linkedin.com/in/viitoraugusto/)
+
+
