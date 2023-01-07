@@ -1,0 +1,17 @@
+.body {
+    max-width: 900px;
+    margin: 0 auto;
+}
+.movies {
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: repeat(3, 1fr);
+}
+.post {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #fff;
+}

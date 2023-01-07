@@ -1,0 +1,33 @@
+fieldset{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    max-width: 650px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+}
+legend{
+    border: none;
+}
+.fieldset{
+    width: 100%;
+}
+.fieldset input{
+    width: 50%;
+    height: 30px;
+    margin: 10px;
+}
+.fieldset button{
+    width: 50%;
+    height: 30px;
+    margin: 10px;
+}
+.fieldset textarea{
+    width: 50%;
+    height: 100px;
+    margin: 10px;
+    resize: none;
+}
