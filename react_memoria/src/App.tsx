@@ -1,11 +1,42 @@
+import { useEffect, useState } from "react";
 import * as C from "./App.styles";
 import logoImage from "./assets/devmemory_logo.png";
 import { Button} from "./components/Button";
 import { InfoItem } from "./components/InfoItem";
 import RestartIcon from "./svgs/restart.svg";
+import { GridItemType } from "./types/GridItemType";
+import { items } from "./data/items";
+
 function App() {
 
-  const resetAndCreateGrid = () => {}
+  const [playing, setPlaying] = useState<boolean>(false);
+  const [timeElapsed, setTimeElapsed] = useState<number>(0);
+  const [movecount, setMoveCount] = useState<number>(0);
+  const [showcount, setShowCount] = useState<number>(0);  
+  const [griditems, setGridItems] = useState<GridItemType[]>([]);
+
+
+  useEffect(() => {
+    resetAndCreateGrid();
+  }, []);
+
+  const resetAndCreateGrid = () => {
+    // Resetar o jogo
+    setTimeElapsed(0);
+    setMoveCount(0);
+    setShowCount(0);
+
+    // Criar o grid
+    let newGridItems: GridItemType[] = [];
+    for( let i = 0; i < (items.length * 2); i++) {
+      newGridItems.push({
+
+      });
+    }
+    setGridItems(newGridItems);
+
+    setPlaying(true);
+  }
   return (
     <div>
       <C.Container>
@@ -23,7 +54,11 @@ function App() {
           onClick={resetAndCreateGrid} />
         </C.Info>
 
-        <C.GridArea>...</C.GridArea>
+        <C.GridArea>
+          <C.Grid>
+
+          </C.Grid>
+        </C.GridArea>
       </C.Container>
     </div>
   );
