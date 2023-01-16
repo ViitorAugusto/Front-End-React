@@ -18,10 +18,10 @@ export const Album = () => {
   }, []);
 
   const loadDigimon = async () => {
-    setLoading(true);
-    const digimon = await api.getDigimonsFromName(name);
-    setDigimon(digimon);
-    setLoading(false);
+    // setLoading(true);
+    // const digimon = await api.getDigimonsFromName(name);
+    // setDigimon(digimon);
+    // setLoading(false);
   };
 
     const handleBackButton = () => {

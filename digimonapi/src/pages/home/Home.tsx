@@ -23,7 +23,7 @@ export const Home = () => {
         <p>{digimon.length}</p>
       {digimon.map((digimon) => (
         <li key={digimon.name}>
-          <span>{digimon.level}</span>
+          
           <CardDigimon title={digimon.name} name={digimon.name}
           
           />
